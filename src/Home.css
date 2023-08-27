@@ -1,0 +1,32 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css);
+.Home{
+    height: 85vh;
+}
+.AllCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 2.5rem;
+}
+body{
+  background-color: #2148C0;
+    
+
+}
+.homeWelcome{
+    text-align: center;
+    font-size: 4rem;
+    color:cornsilk;
+    text-shadow: 5px 5px black;
+}
+.indic{
+    background-color: rgb(211, 199, 232);
+    text-align: justify;
+    border-radius: 0.7rem;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.indic h5{
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+.wrap{
+  height: 100vh;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-info {
+    width: 40vw;
+    padding: 20px;
+    margin-left: 2rem ;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: #f7f7f7;
+
+  }
+  
+  .profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info label {
+    font-weight: bold;
+    
+    margin-top: 10px;
+  }
+  
+  .profile-info input,
+  .profile-info textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-info textarea {
+    
+    resize: none;
+    min-height: 100px;
+  }
+  
+  .profile-info input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+    margin-top: 50px;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #369;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0.5rem ;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #246;
+  }
+  .Bus {
+    width: 120px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  

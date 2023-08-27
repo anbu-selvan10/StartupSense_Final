@@ -1,0 +1,177 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+/* Reset default margins and paddings for all elements */
+#root{
+  background-color: #2148C0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles for the body */
+body {
+  background-color: #2148C0;
+  font-family: Arial, sans-serif;
+
+
+}
+.App{
+  height: 100%;
+}
+
+/* Header styles */
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #89a0ec;
+  padding: 5px 10px;
+  border: 3px solid black;
+  box-shadow: 1px 1px -1px -1px inset;
+}
+
+.logotext {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.nav-options {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ .li {
+  text-align: center;
+  width: 150px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 13px;
+  border: 2px solid rgb(48, 31, 147);
+  border-radius: 0 0 10px 10px;
+  border-style:inset;
+  text-decoration: none;
+  color: black;
+}
+
+.li  {
+  color: #050505;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s;
+  text-align: center;
+  padding: 8px;
+}
+
+.nav-options :hover  {
+  background-color: rgb(101, 101, 212);
+  font-weight: bold;
+}
+ .li a:hover{
+  background-color: transparent;
+} 
+
+
+
+
+
+/* overided */
+.Button{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+input{
+  padding: 6px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left:40px ;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.Main {
+  background-color: #2148C0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 83.6vh;
+  margin: 0;
+
+}
+
+
+.Bus {
+  width: 120px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.Username{
+  padding: 10px;
+}
+.Password{
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.SignUp {
+  margin-top: 10px;
+  background-color: #28a745;
+  font-weight: bold;
+}
+
+.SignUp:hover {
+  background-color: #218838;
+}
+
+.disabled {
+  pointer-events: none;
+  color: gray; 
+}
+
+
+
