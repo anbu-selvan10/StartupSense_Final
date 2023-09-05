@@ -58,13 +58,14 @@ def predict():
     sample = pd.DataFrame(sample_data, index=[0])
 
     prediction = model.predict(sample)
-
+    '''
     if(d==0):#correlation matrix
         prediction_value = 0
     elif((e==3 and f==1 and g==1 and h==1 and i==1) and (d == 1 or d==2)):
         prediction_value = 2
     else:
-        prediction_value = int(prediction[0])
+    '''
+    prediction_value = int(prediction[0])
 
     return jsonify({
         'prediction': prediction_value
